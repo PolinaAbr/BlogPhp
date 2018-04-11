@@ -1,0 +1,52 @@
+.post-image{
+    width: 980px;
+    height: 460px;
+    background-size: cover;
+}
+
+.post-image-border{
+    width: 966px;
+    height: 446px;
+}
+
+.post-icon-network{
+    top: 333px;
+}
+
+.post-actions{
+    margin-left: 930px;
+}
+
+.post-image-bg{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 39px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.post-image-header{
+    margin: 0 150px;
+    width: 100%;
+}
+
+.post-text-news{
+    margin-top: 20px;
+}
+
+.post-text{
+    width: 900px;
+    padding-top: 20px;
+}
+
+.post-text-1{
+    width: 888px;
+}
+
+.post-text-2{
+    width: 866px;
+}

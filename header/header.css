@@ -1,0 +1,99 @@
+.header{
+    display: flex;
+    width: 100%;
+    height: 44px;
+    background: url("../img/bg-menu.png");
+    color: white;
+    font-family: "Helvetica", sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 44px;
+}
+
+.title{
+    height: 100%;
+    width: 369px;
+    background-color: rgb(242, 108, 79);
+    color: white;
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.creative{
+    float: right;
+    margin-right: 80px;
+}
+
+sup{
+    color: rgb(245, 147, 126);
+    margin-left: -5px;
+}
+
+.menu{
+    display: flex;
+}
+
+.item{
+    margin-left: 25px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.item:hover{
+    color: rgb(242, 108, 79);
+}
+
+.username{
+    color: rgb(242, 108, 79);
+    margin-left: auto;
+    margin-right: 15px;
+    white-space: nowrap;
+
+}
+
+#username{
+    display: none;
+}
+
+.login-block{
+    margin-right: 14%;
+    margin-left: auto;
+    padding-left: 25px;
+    cursor: pointer;
+    display: flex;
+}
+
+#login{
+    display: block;
+}
+
+#logout{
+    display: none;
+}
+
+.login:hover{
+    color: rgb(242, 108, 79);
+}
+
+.bg-header{
+    background: url("../img/bg-header.png");
+    height: 47px;
+}
+
+.bg-alpha{
+    height: 52px;
+    width: 100%;
+    background: url("../img/bg-menu.png");
+    opacity: 0.3;
+}
+
+@media (max-width: 1100px) {
+    .title{
+        width: 200px;
+    }
+    .creative{
+        margin-right: 30px;
+    }
+}

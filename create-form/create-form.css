@@ -1,0 +1,69 @@
+.create-form{
+    width: 900px;
+    background-color: white;
+    padding: 20px 40px;
+    display: grid;
+}
+
+.create-header{
+    color: rgb(58, 62, 63);
+    font-weight: bolder;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.create-label{
+    display: grid;
+    color: rgb(149, 149, 149);
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.create-date{
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.input{
+    margin-top: 2px;
+    width: 450px;
+    height: 24px;
+    font-weight: normal;
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 5px;
+    outline: none;
+    padding: 0 5px;
+    box-shadow: inset 2px 2px 2px -1px rgba(0, 0, 0, 0.1),
+    inset -2px -2px 2px -1px rgba(0, 0, 0, 0.1);
+}
+
+.input-text{
+    width: 98%;
+    height: 175px;
+    resize: none;
+    padding: 5px;
+}
+
+.create-btn{
+    width: 100px;
+    height: 32px;
+    color: white;
+    background-color: rgb(242, 108, 79);
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.cancel-btn{
+    width: 70px;
+    color: rgb(85, 85, 85);
+    background-color: rgb(236, 236, 236);
+    border: 1px solid rgb(187, 187, 187);
+}

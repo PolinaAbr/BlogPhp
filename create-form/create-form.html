@@ -1,0 +1,28 @@
+<div class="content">
+    <div class="create-form">
+        <div class="create-header">Create a Post</div>
+        <form id="form-create" name="form-create" method="post" onsubmit="">
+            <label for="input-title" class="create-label">
+                Post Title
+                <input type="text" class="input input-title" id="input-title" name="input-title" autocomplete="off">
+            </label>
+            <label for="input-subtitle" class="create-label">
+                Post Subtitle
+                <input type="text" class="input input-subtitle" id="input-subtitle" name="input-subtitle" autocomplete="off">
+            </label>
+            <label for="input-tags" class="create-label">
+                Tags
+                <input type="text" class="input input-tags" id="input-tags" name="input-tags" autocomplete="off">
+                <div class="date-news create-date">Please enter comma separated list of tags</div>
+            </label>
+            <label for="input-text" class="create-label">
+                Post Text
+                <textarea class="input input-text" id="input-text" name="input-text"></textarea>
+            </label>
+            <div>
+                <input type="button" class="create-btn" value="Create Post" onclick="submitCreate()">
+                <input type="button" class="create-btn cancel-btn" value="Cancel" onclick="location.href='index.php'">
+            </div>
+        </form>
+    </div>
+</div>

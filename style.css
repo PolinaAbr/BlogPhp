@@ -1,0 +1,40 @@
+@import "header/header.css";
+@import "modal-login/modal-login.css";
+@import "footer/footer.css";
+@import "news/news.css";
+@import "news/mini-news.css";
+@import "sidebar/sidebar.css";
+@import "social/social.css";
+@import "post-view/post-view.css";
+@import "create-form/create-form.css";
+@import "comments/comments.css";
+
+body{
+    margin: 0;
+    cursor: default;
+    font-family: "Helvetica", sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.page{
+    margin: 0 auto;
+    width: 100%;
+    background: url("img/bg-body.png");
+}
+
+.content{
+    width: 100%;
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

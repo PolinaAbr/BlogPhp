@@ -1,0 +1,36 @@
+.mini-block{
+    display: flex;
+}
+
+.mini-news{
+    margin-left: 10px;
+    margin-right: 38px;
+    width: 280px;
+}
+
+.mini-image{
+    width: 280px;
+    height: 226px;
+    background-size: cover;
+}
+
+.mini-border{
+    width: 266px;
+    height: 212px;
+}
+
+.mini-text{
+    width: 200px;
+}
+
+.mini-text-1{
+    width: 188px;
+}
+
+.mini-text-2{
+    width: 176px;
+}
+
+.mini-header{
+    font-size: 16px;
+}
